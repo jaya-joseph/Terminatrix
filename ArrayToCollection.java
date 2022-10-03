@@ -10,7 +10,7 @@ public class ArrayToCollection {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader(System.in));
-		System.out.println("no of elemnts to be read");
+		System.out.println("Enter the number of elemnts to be read:");
 		int n=Integer.parseInt(in.readLine());
 		String[] name= new String[n];
 		for(int i=0;i<n;i++)
@@ -18,7 +18,7 @@ public class ArrayToCollection {
 			name[i]=in.readLine();
 		}
 		List<String> list= Arrays.asList(name);
-		System.out.println();
+		System.out.println("-----------");
 		
 		for(String s:list) {
 			String str = s;
