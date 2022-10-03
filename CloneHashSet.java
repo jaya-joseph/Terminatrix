@@ -11,11 +11,11 @@ public class CloneHashSet {
 		h_set.add("Black");
 		h_set.add("green");
 		h_set.add("yellow");
-		System.out.println("Old HashSet" + h_set);
+		System.out.println("Old HashSet is " + h_set);
 		
 		HashSet<String> new_set=new HashSet<String>();
 		new_set = (HashSet)h_set.clone();
-		System.out.println("New HashSet"+new_set);
+		System.out.println("New HashSet is "+new_set);
 		
 		HashSet<String> h_set1=new HashSet<String>();
 		h_set1.add("R");
