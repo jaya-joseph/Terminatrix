@@ -23,6 +23,9 @@ public class ArrayToCollection {
 		for(String s:list) {
 			String str = s;
 			System.out.println(str +"");
+			
+		for(String q:list){
+			System.out.println("new change")
 		}
 	}
 
